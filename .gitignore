@@ -12,3 +12,13 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# For development testing
+data/
+
+# environment secrets
+**/env.rs
+**/.env
+
+# internal roadmap
+roadmap.md
