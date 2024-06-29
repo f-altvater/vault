@@ -494,12 +494,12 @@ impl PasswordManagerApp {
         );
     }
 
-    fn show_toast(&mut self, ctx: &egui::Context) {
-        let ctx_right_bottom = ctx.available_rect().right_bottom();
-        let width = 150.0;
-        let x = ctx_right_bottom.x - width;
-        let y = ctx_right_bottom.y - 50.0;
-    }
+    // fn show_toast(&mut self, ctx: &egui::Context) {
+    //     let ctx_right_bottom = ctx.available_rect().right_bottom();
+    //     let width = 150.0;
+    //     let x = ctx_right_bottom.x - width;
+    //     let y = ctx_right_bottom.y - 50.0;
+    // }
 
     fn authenticate(&mut self, ctx: &egui::Context) {
         egui::CentralPanel::default()
@@ -666,9 +666,9 @@ impl PasswordManagerApp {
 impl eframe::App for PasswordManagerApp {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         if self.logged_in {
-            if self.toast_end_time < 1 {
-                self.show_toast(ctx);
-            }
+            // if self.toast_end_time < 1 {
+            //     self.show_toast(ctx);
+            // }
             
             self.show_entry_list(ctx);
 
