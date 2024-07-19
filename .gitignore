@@ -17,7 +17,7 @@ Cargo.lock
 data/
 
 # environment secrets
-**/env.rs
+# **/env.rs
 **/.env
 
 # internal roadmap
