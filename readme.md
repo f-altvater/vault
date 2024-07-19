@@ -11,7 +11,9 @@ Inside the app your entries will be listed and can be selected in order to check
 ## Upcoming Features
 
 [ ] Search Function - The ability to search for the given name of an entry and have only search hits listed
+
 [ ] Grouping of credentials - The ability to give credentials tags and search for credentials with the selected tag
+
 [ ] Password Generator - when adding or editing an Entry you can let the app generate a password with given parameters
 
 ---
